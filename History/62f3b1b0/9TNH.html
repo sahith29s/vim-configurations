@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+<head/>
+
+<body style="height: 100vh;" class="bg-slate-400">
+
+    <h1 class="text-center text-4xl">
+        This is calc me a calclator
+    </h1>
+    <div class="flex">
+
+        <div style="height: 75vh;" class="mt-16 conta buttons flex w-80 m-auto border rounded-2xl bg-red-500 flex-col justify-center items-center">
+            <div class="">Sasta Calulator</div>
+            <input class="mb-3 input text-white w-64 h-28 border rounded-xl text-2xl bg-slate-800" id="input" type="text">
+
+        
+            <div class="row mb-2">
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">C</button>
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">x</button>
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">^</button>
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">*</button>
+            </div>
+        
+
+            <div class="row mb-2">
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">7</button>
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">8</button>
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">9</button>
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">*</button>
+            </div>
+            <div class="row mb-2">
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">4</button>
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">5</button>
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">6</button>
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">/</button>
+            </div>
+
+            <div class="row mb-2">
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">1</button>
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">2</button>
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">3</button>
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">+</button>
+            </div>
+
+            <div class="row mb-2">
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">0</button>
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">.</button>
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">=</button>
+                <button style="width: 4rem;" class="bg-yellow-400 px-6 button py-3 border rounded-md">_</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="display"></div>
+
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>

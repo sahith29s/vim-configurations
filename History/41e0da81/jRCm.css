@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.row{
+    margin: 0;
+
+}
+
+.navbar{
+    color: red;
+}
+
+@media (max-width = 800) {
+    .navbar{
+        background-color: red;
+    }
+}
+
+.bgKeLiye{
+    background-color: rgb(25, 118, 127);
+}
+
+
+.fa-snowflake{
+    transition: linear ;
+    animation: rotun 1s linear infinite ;
+    padding: 0px .5rem ;
+
+}
+@keyframes rotun {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

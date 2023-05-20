@@ -1,0 +1,3 @@
+import quadtraticEquations 
+
+quadtraticEquations.quadraticEquationFunc()

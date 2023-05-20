@@ -1,0 +1,17 @@
+Get http://localhost:3000/subscribers
+
+
+###
+
+Get http://localhost:3000/subscribers/15
+
+
+
+###
+POST http://localhost:3000/subscribers/15
+
+Conten
+{
+    "name" : "Amazing Person",
+    "subscribedToChannel" : "Web dev"
+}

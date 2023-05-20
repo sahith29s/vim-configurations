@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#logo{
+    height: 3rem;
+    
+    border: .1rem solid white;
+    border-radius: 1.5rem;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: red;
+    width: 70vw;
+    margin: auto;
+
+}
+
+let

@@ -1,0 +1,2 @@
+db.collection.updateOne(<filer> , {$set : <Anything you want to change> })
+

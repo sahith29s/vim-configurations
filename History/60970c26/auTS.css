@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    list-style: none;
+}
+
+nav ul li{
+    padding:0px .5rem;
+}
+
+#logo{
+    width: 5vh;
+    padding: 0px .4rem;
+}
+
+#logoKaBaap{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+
+}

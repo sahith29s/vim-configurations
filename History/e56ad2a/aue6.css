@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.message-area{
+    height: 70vh;
+    background-color: red;
+    width: 80vw;
+    margin: auto;
+}
+
+.incoming{
+    float: left;
+    clear: both;
+}
+
+
+.outgoing{
+    float: right;
+    clear: both;
+}
+
+
+.outgoing-message{
+    width: 40vh;
+}
+
+.outgoing-message{
+    width: 40vh;
+}
+

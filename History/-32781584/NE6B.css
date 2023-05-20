@@ -1,0 +1,8 @@
+.nav ul { 
+  display: flex;
+  list-style: none; 
+  justify-content: center;
+  margin-top: 23px;
+  color: red;
+  background-color: white;
+}

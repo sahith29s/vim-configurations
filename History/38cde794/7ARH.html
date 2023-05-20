@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css">
+
+</head>
+
+<body class="bg-gradient-to-t h-body from-blue-500 via-green-400 to-yellow-500">
+  <div class="body-bg">
+    <form action="/api/contact" class="w-full max-w-lg mx-auto p-8 md:p-12 rounded-lg shadow-lg bg-gray-50">
+      <div class="text-center text-4xl text-gray-800 mb-8 font-semibold">Contact Us</div>
+
+      <div class="mb-6">
+        <label class="block text-gray-700 font-bold mb-2" for="name">Name:</label>
+        <input name="name"
+          class="appearance-none border-2 h-10 w-full py-2 px-3 text-gray-700 leading-tight rounded-md outline-none bg-gray-200"
+          type="text" placeholder="John Doe" required>
+      </div>
+
+      <div class="mb-6">
+        <label class="block text-gray-700 font-bold mb-2" for="email">Email:</label>
+        <input name="email"
+          class="appearance-none border-2 h-10 w-full py-2 px-3 text-gray-700 leading-tight rounded-md outline-none bg-gray-200"
+          type="email" placeholder="johndoe@example.com" required>
+      </div>
+
+      <div class="mb-6">
+        <label class="block text-gray-700 font-bold mb-2" for="message">Message:</label>
+        <textarea name="message"
+          class="appearance-none border-2 rounded-md w-full py-2 px-3 text-gray-700 leading-tight h-32 resize-none outline-none bg-gray-200"
+          placeholder="Your message here" required></textarea>
+      </div>
+
+      <div class="text-center">
+        <button type="submit"
+          class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-full">Send</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+
+
+</html>

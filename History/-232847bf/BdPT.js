@@ -1,0 +1,45 @@
+
+function App() {
+
+
+  const [first, setfirst] = usestate(second)
+
+
+  const submitform = async (e) =>{
+    e.preventdefault()
+    console.log("sahith");
+  };
+  return (
+    <>
+      <div classname="container">
+
+        <h1>register</h1>
+
+        <form onsubmit={submitform}>
+
+          <div>
+            <input type="text" placeholder="enter your name " />
+          </div>
+
+          
+          <div>
+            <input type="text" placeholder="enter your emanil" />
+          </div>
+
+          <div>
+            <input type="text" placeholder="enter your password" />
+          </div>
+
+
+        <div>
+          <input type="submit" value="submit this" />
+        </div>
+        </form>
+      </div>
+
+
+    </>
+  );
+}
+
+export default App;

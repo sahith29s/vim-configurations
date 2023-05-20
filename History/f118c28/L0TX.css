@@ -1,0 +1,12 @@
+.box{
+    background-color: red;
+    height: 10vh;
+    width: 10vh;
+
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+}

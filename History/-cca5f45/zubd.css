@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.checkbox{
+    @apply w-5 h-5 bg-red-700 rounded-3xl
+}
+
+.is-checkbox{
+    @apply w-5 h-5 bg-orange-700 rounded-3xl
+}

@@ -1,0 +1,21 @@
+.slider-image{
+    height: 90vh;
+    object-fit: cover;
+}
+
+
+.logo-height{
+    font-size: 6rem;
+    margin-top: .4rem;
+}
+
+@media (max-width: 880px)  {
+    .slider-image{
+        height: 30vh;
+    }
+    
+}
+
+*{
+    font-family: sans-serif;
+}

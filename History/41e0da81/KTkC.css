@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.carousel-inner div img{
+    height: 50vh;
+}
+
+.row{
+    margin: 0;
+
+}
+
+.navbar{
+    color: red;
+}

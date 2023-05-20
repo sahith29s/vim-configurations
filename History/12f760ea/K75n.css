@@ -1,0 +1,11 @@
+#logo{
+    height: 3rem;
+    
+    border: .1rem solid white;
+    border-radius: 1.5rem;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}

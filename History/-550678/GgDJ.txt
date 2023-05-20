@@ -1,0 +1,5 @@
+db.collection.updateOne(<filer> , {$set : <Anything you want to change> })
+
+collection --> Documents --> fields 
+
+db.collection.deleteMany({"xyz" : "abc"})

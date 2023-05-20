@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#logo{
+    width: 10vh;
+}

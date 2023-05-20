@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/css/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-gradient-to-r from-blue-500 to-green-500">
+    <div class="text-center text-white">Sasta Whatsapp</div>
+
+    <div class="conta container mt-10 rounded-tl-3xl h-[80vh] mx-auto bg-slate-400 overflow-y-auto">
+
+        <div class="logo mb-5 text-center pt-5">
+            <i class="fa-brands text-3xl text-purple-700 fa-whatsapp "></i>
+        </div>
+        <div class="border-b-[.08rem] mb-8"></div>
+
+        {{!-- <div class="clear-both text-center">
+            <div class="bg-green-700 h-10 flex items-center justify-center">lsdjf</div>
+        </div> --}}
+    </div>
+
+
+    <div class="container mx-auto">
+        <input type="text" class="w-[93.8vw] input h-8 pr-16 pl-4 outline-none border-none rounded-sm">
+        <button class="relative submit-btn bottom-7 left-[90vw] text-green-600">Send</button>
+    </div>
+
+
+</body>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="public/js/client.js"></script>
+
+</html>

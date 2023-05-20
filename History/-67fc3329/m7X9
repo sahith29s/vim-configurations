@@ -1,0 +1,3 @@
+SAHITH = "sahith"
+
+MONGOOSE = "mongodb://localhost/myTryTodoReact" 

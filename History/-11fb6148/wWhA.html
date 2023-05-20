@@ -1,0 +1,90 @@
+<!-- 
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>404 Page Not Found</title>
+
+    <link href="https://unpkg.com/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white font-sans leading-normal tracking-normal">
+    <div class="flex h-screen">
+      <div class="m-auto">
+        <div class="text-center">
+          <h1 class="text-9xl font-bold mb-4 animate-pulse">404</h1>
+          <h2 class="text-3xl font-medium mb-8">Oops! Page not found</h2>
+          <p class="text-lg mb-8">We couldn't find the page you were looking for. It may have been moved or deleted.</p>
+          <a href="/" class="bg-white hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded">Go back to homepage</a>
+        </div>
+        <div class="mt-20 text-center">
+          <p class="text-lg mb-4">Here are some helpful links instead:</p>
+          <div class="flex justify-center">
+            <a href="/" class="mx-4 text-lg hover:underline">Home</a>
+            <a href="/contact" class="mx-4 text-lg hover:underline">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Add event listener to change background color on click
+      document.addEventListener('click', function() {
+        const colors = ['bg-blue-500', 'bg-green-500', 'bg-yellow-500', 'bg-pink-500', 'bg-purple-500'];
+        const randomColor = colors[Math.floor(Math.random() * colors.length)];
+        document.body.classList = randomColor + ' text-white font-sans leading-normal tracking-normal';
+      });
+    </script>
+  </body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.tailwindcss.com"></script>
+    <title>404 Page Not Found</title>
+    <link href="https://unpkg.com/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <div class="flex h-screen">
+      <div class="m-auto">
+        <div class="text-center">
+          <h1 class="text-9xl font-bold text-gray-700">404</h1>
+          <h2 class="text-3xl font-medium text-gray-600 mb-6 mt-2">Oops! Page not found</h2>
+          <p class="text-gray-600 mb-8">We couldn't find the page you were looking for. It may have been moved or deleted.</p>
+          <a href="/" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Go back to homepage</a>
+        </div>
+        <div class="mt-20 text-center">
+          <p class="text-gray-600 mb-2">Here are some helpful links instead:</p>
+          <div class="flex justify-center">
+            <a href="/" class="text-blue-500 hover:text-blue-700 font-medium mr-5">Home</a>
+            <a href="/contact" class="text-blue-500 hover:text-blue-700 font-medium mr-5">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Select the body element
+      const body = document.querySelector('body');
+
+      // Define an array of background colors
+      const colors = ['#F87171', '#FBBF24', '#34D399', '#60A5FA', '#A78BFA', '#F472B6'];
+
+      // Set an interval to change the background color every 5 seconds
+      setInterval(() => {
+        // Choose a random color from the array
+        const randomColor = colors[Math.floor(Math.random() * colors.length)];
+        // Set the background color of the body element
+        body.style.backgroundColor = randomColor;
+      }, 1000);
+    </script>
+  </body>
+</html>

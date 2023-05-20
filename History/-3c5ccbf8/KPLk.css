@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: purple;
+    color: white;
+    display: flex;
+
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: .8rem 1rem ;
+}
+nav ul{
+    display: flex;
+    
+
+}
+nav ul li span{
+    font-size: .7rem;
+}
+.gameContainer{
+    display: flex ;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.leftContainer{
+    display: grid;
+    grid-template-rows: repeat(3 , 10vw);
+    grid-template-columns: repeat(3 , 10vw);
+}
+
+
+.box{
+    border: .1rem solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: .8rem;
+
+}
+
+
+.boxText{
+    font-size: 8rem;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.box:hover{
+    background-color: rgb(239, 236, 236);
+}
+
+.bt-0{
+    border-top: 0px;
+}
+
+.br-0{
+    border-right: 0px;
+}
+
+.bb-0{
+    border-bottom: 0px;
+}
+
+.bl-0{
+    border-left: 0px;
+}
+
+
+.info{
+    display: inline-block;
+    width: 10rem;
+    font-size: 1.5rem;
+}
+
+#reset{
+    background-color: rgb(56, 163, 164) ;
+    font-size: 1rem;
+    border: .1rem solid black;
+    border-radius: .7rem;
+    padding: .1rem .5rem;
+    color: white;
+    
+}
+
+@media screen and (max-width : 900px) {
+    .gameContainer{
+        display: block;
+
+    }
+    .leftContainer{
+       width: 60vw; 
+       margin: auto;
+       margin-bottom: 4rem;
+       display: grid;
+       grid-template-columns: repeat(3, 20vw);
+       grid-template-rows: repeat(3, 20vw);
+
+
+    }
+   
+    .rightContainer h1{
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+    right: ;
+    .boxText{
+        font-size: 3rem;
+    }
+
+}

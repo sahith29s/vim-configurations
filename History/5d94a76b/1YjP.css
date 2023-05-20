@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{ 
+    .incoming{
+        @apply float-left clear-both bg-red-400
+    }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+[[services.ports]]
+    force_https = true
+    handlers = ["http"]
+    port = 80
+    http_options = { response = { headers = { Content-Type = ["text/html", "text/javascript"] } } }
+
+
+    <title>Document</title>
+</head>
+<body>
+    
+    This is me in notUseFul in index.html
+
+</body>
+    <script type="text/javascript" src="{% static 'js/client.js' %}"></script>
+</html>

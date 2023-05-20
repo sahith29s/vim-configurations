@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.2/tailwind.min.css"
+        integrity="sha512-fXHpzShI1v+vtaFHryd/Bi8cJ5q8w4O/XbsODJelKfWuUxW5yjE5l6vVgxhTx/6Yjrwxebi8T8zKhQJUgOyLrA=="
+        crossorigin="anonymous" />
+</head>
+
+<div
+    class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 flex flex-col justify-center items-center h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-md w-full md:w-2/3 lg:w-1/2">
+        <h1 class="text-4xl font-bold mb-4 text-center text-gray-800">Sign Up</h1>
+        <form action="/api/signup" method="POST">
+            <label class="block mb-2 font-bold text-gray-700" for="username">Username</label>
+            <input class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
+                type="text" id="username" name="username" required>
+
+            <label class="block mb-2 font-bold text-gray-700" for="email">Email</label>
+            <input class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
+                type="email" id="email" name="email" required>
+
+            <label class="block mb-2 font-bold text-gray-700" for="password">Password</label>
+            <input class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
+                type="password" id="password" name="password" required>
+
+            <label class="block mb-2 font-bold text-gray-700" for="confirm_password">Confirm Password</label>
+            <input class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
+                type="password" id="confirm_password" name="confirm_password" required>
+
+            <button class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded mt-4 w-full"
+                type="submit">Sign Up</button>
+        </form>
+    </div>
+</div>
+{{>footerBlack}}
+
+</html>

@@ -1,0 +1,16 @@
+.box{
+    background-color: red;
+
+    height: 20vh;
+    width: 20vh;
+    border: .3rem solid black;
+
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 20vh);
+    row-gap: .3rem;
+    column-gap: .3rem;
+}

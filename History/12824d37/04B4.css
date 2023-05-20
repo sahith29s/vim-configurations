@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(135deg , purple , green);
+}
+
+.todo-app{
+    width: 100%;
+    max-width: 39rem;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    top: 10rem;
+    border: .1rem solid black;
+    border-radius: .6rem;
+    padding: 10px;
+    /* display: flex; */
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    
+}
+
+
+.todo-list{
+    text-align: center;
+}
+
+.btn{
+    background-image: linear-gradient(orange,white,green);
+    position: relative;
+    top: .14rem;
+    right: 4.5rem;
+    font-size: 1.2rem;
+    padding: .5rem .9rem;
+    border: .1rem solid black;
+    cursor: pointer;
+    outline: none;
+    border-radius: .4rem;
+}
+
+
+#input-box{
+    /* border: .2rem solid black; */
+    border: none;
+    outline: none;
+    background-color: rgb(233, 233, 233);
+    padding: .9rem;
+    width: 25rem;
+    margin-left: 3rem;
+    border-radius: .7rem;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+
+li{
+    margin: .8rem 0.8rem;
+}
+
+
+
+.span{
+    background-color: rgb(100, 151, 198);
+    position:absolute;
+    left: 35rem;
+    color: white;
+    padding: .1rem 0.4rem;
+    border: .01rem solid black;
+    border-radius: 10rem;
+    
+
+}
+

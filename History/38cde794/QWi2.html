@@ -1,0 +1,10 @@
+
+const mongoose = require("mongoose");
+
+const signUpData = require("./mongoose/models/signup")
+
+signUpData.findOne({
+  email : "honey.sahith29@gmail.com"
+}).then((value) =>{
+  console.log(value);
+})

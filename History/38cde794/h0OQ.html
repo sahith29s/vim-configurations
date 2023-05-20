@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css">
+</head>
+
+<body class="bg-gradient-to-br from-indigo-900 to-purple-700 text-gray-200">
+    <div class="flex flex-col h-screen justify-center items-center">
+        <!-- Login form -->
+        <form method="post" action="/api/login" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col w-full md:w-1/2 lg:w-1/3">
+            <img src="data:image/png;base64,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" alt="Dummy Person" class="mx-auto mb-4">
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2" for="username">
+                    Username
+                </label>
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="username" type="text" placeholder="Username">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2" for="email">
+                    Email
+                </label>
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="email" type="email" placeholder="Email">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2" for="password">
+                    Password
+                </label>
+                <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="password" type="password" placeholder="Password">
+            </div>
+            <div class="flex items-center justify-between mb-4">
+                <a class="inline-block align-baseline font-bold text-sm text-indigo-600 hover:text-indigo-800" href="#">
+                    Forgot Password?
+                </a>
+            </div>
+            <div>
+                <button
+                    class="bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:shadow-outline text-white font-bold py-2 px-4 rounded">
+                    Sign In
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

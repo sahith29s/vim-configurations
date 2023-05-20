@@ -1,0 +1,12 @@
+use sahith 
+to know which db using run command "db"
+
+db.items.insertOne({name :"sahith" })
+db.items.insertMany([{name :"sahith" }, {class : "10 grade"}])
+db.items.find()
+
+
+Filters in all the id's. 
+db.itmes.find({rating : 3.5})
+db.itmes.find({rating : {$gte : 3.5}}) // gte = greater then or 
+

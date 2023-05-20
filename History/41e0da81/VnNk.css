@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.row{
+    margin: 0;
+
+}
+
+.navbar{
+    color: red;
+}
+
+@media (max-width = 800) {
+    .navbar{
+        background-color: red;
+    }
+}
+
+bgKeLiye{
+    background-color: yellow;
+}

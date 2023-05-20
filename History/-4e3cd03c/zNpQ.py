@@ -1,0 +1,3 @@
+
+from quadtraticEquations import quadraticEquationFunc
+quadraticEquationFunc()

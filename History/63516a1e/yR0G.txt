@@ -1,0 +1,6 @@
+use sahith 
+to know which db using run command "db"
+
+db.items.insertOne({name :"sahith" })
+db.items.insertMany([{name :"sahith" }, {class : "10 grade"}])
+db.items.find()

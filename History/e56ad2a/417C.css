@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.message-area{
+    height: 70vh;
+    background-color: red;
+}

@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "views",
+			"path": "../../../../confidential/cloneAndProjects/projects/mongoDbWebsite/views"
+		},
+		{
+			"name": "src",
+			"path": "../../../../confidential/cloneAndProjects/projects/mongoDbWebsite/src"
+		},
+		{
+			"name": "mongoDbWebsite2",
+			"path": "../../../../confidential/cloneAndProjects/projects/mongoDbWebsite2"
+		},
+		{
+			"name": "models",
+			"path": "../../../../confidential/cloneAndProjects/projects/mongoDbWebsite/models"
+		}
+	],
+	"settings": {}
+}

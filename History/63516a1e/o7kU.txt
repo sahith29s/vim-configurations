@@ -1,0 +1,3 @@
+use sahith 
+
+db.items.insertOne({name :"sahith" })

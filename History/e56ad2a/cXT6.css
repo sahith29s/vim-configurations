@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.message-area{
+    height: 70vh;
+    background-color: red;
+    width: 80vw;
+    margin: 10vh auto;
+    overflow-y: auto;
+
+}
+
+.incoming{
+    float: left;
+    clear: both;
+    margin: .1rem 0rem 2rem .8rem;
+}
+
+
+.outgoing{
+    float: right;
+    clear: both;
+    margin: 0px .8rem 2rem 0px;
+}
+
+
+.outgoing-message{
+    width: 40vh;
+    overflow: auto;
+}
+
+.incoming-message{
+    width: 40vh;
+}
+
+
+.input-conta{
+    position: absolute;
+    top : 30rem;
+
+}
+
+.input{
+    width: 80vw;
+}
+
+.message-send-btn{
+    position: absolute;
+    top: 30rem;
+    left: 90vw;
+}

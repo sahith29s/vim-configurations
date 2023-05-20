@@ -1,0 +1,24 @@
+
+const mongoose = require("mongoose");
+
+require("./mongoose/DB/connectMonoogse")()
+
+const signUpData = require("./mongoose/models/signup")
+
+
+const create = async () => {
+
+
+  try {
+    let result = await signUpData.findOne({
+      email : "honey.sahith29@gmail.com"
+    })
+    console.log(result);
+    console.log("lskjf");
+
+  } catch (error) {
+    console.log(error);
+
+  }
+}
+create()

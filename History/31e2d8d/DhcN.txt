@@ -1,0 +1,3 @@
+db.collection.updateOne(<filer> , {$set : <Anything you want to change> })
+
+And this is amazing isn't dude what the fuck is this what the hack are you even talking

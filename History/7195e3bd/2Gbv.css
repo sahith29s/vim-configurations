@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+}
+
+.button{
+    width: 4rem;
+}
+/* 
+.conta{
+    height: 75vh;
+} */
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}

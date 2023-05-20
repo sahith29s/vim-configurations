@@ -1,0 +1,14 @@
+.box{
+    background-color: red;
+
+    height: 20vh;
+    width: 20vh;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 20vh);
+    row-gap: .3rem;
+    columns: gap;
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(135deg , purple , green);
+}
+
+.todo-app{
+    width: 100%;
+    max-width: 35rem;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    top: 10rem;
+    border: .1rem solid black;
+    border-radius: .6rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.btn{
+    background-image: linear-gradient(orange,white,green);
+    position: relative;
+    right: 5rem;
+    padding: .8rem .7rem;
+}
+
+
+#input-btn{
+    border: none;
+    outline: none;
+    background-color: rgb(233, 233, 233);
+    padding: .9rem;
+    width: 25rem;
+    margin-left: 3rem;
+    border-radius: .7rem;
+
+}
+

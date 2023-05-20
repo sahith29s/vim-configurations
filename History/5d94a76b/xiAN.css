@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{ 
+    .incoming{
+        @apply float-left clear-both mt-3 ml-3 mb-3
+    }
+
+    .outgoing{
+        @apply float-right clear-both mt-3 mr-3 mb-3
+    }
+}
