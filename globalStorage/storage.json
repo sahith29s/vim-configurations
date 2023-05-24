@@ -101,7 +101,6 @@
             "file:///home/sahith/confidential/webDevelopment/bootstrapAndTailwind/tailWind/hiteshTailwind": "__default__profile__",
             "file:///home/sahith/confidential/webDevelopment/backend/restApi/loginFormByThapa": "__default__profile__",
             "file:///home/sahith/confidential/webDevelopment/cloneAndProjects/projects/mernApplications/i-note-book/backend": "__default__profile__",
-            "file:///home/sahith/confidential/webDevelopment/cloneAndProjects/projects/reactOnly": "__default__profile__",
             "file:///home/sahith/confidential/webDevelopment/cloneAndProjects/projects/reactOnly/todo-app-react": "__default__profile__",
             "file:///home/sahith/confidential/webDevelopment/frontEnd/react/react-coder-dost/state-cdr-dst": "__default__profile__",
             "file:///home/sahith/confidential/webDevelopment/cloneAndProjects/projects/vanillaProjects/snakeGame": "__default__profile__",
@@ -123,12 +122,19 @@
             "file:///home/sahith/confidential/webDevelopment/cloneAndProjects/projects/nodeProjects/normalWeb": "__default__profile__",
             "file:///home/sahith/confidential/languages/javascriptWallah": "__default__profile__",
             "file:///home/sahith/confidential/webDevelopment/cloneAndProjects/projects/nodeProjects/freelnceWebsite": "__default__profile__",
-            "file:///home/sahith/confidential/webDevelopment/cloneAndProjects/clone/chatGptClone": "__default__profile__",
             "file:///home/sahith/confidential/webDevelopment/frontEnd/next/nextCodeEvolution": "__default__profile__",
             "file:///home/sahith/confidential/webDevelopment/frontEnd/next/next-code-evolution": "__default__profile__",
             "file:///home/sahith/confidential/webDevelopment/frontEnd/next/nextTry": "__default__profile__",
             "file:///home/sahith/confidential/webDevelopment/frontEnd/next/nextTry/lsdjflsdjf": "__default__profile__",
-            "file:///home/sahith/confidential/webDevelopment/backend/node.js/express": "__default__profile__"
+            "file:///home/sahith/confidential/webDevelopment/backend/node.js/express": "__default__profile__",
+            "file:///home/sahith/confidential/webDevelopment/cloneAndProjects/projects/reactOnly": "__default__profile__",
+            "file:///home/sahith/don-t-break-the-chain-app": "__default__profile__",
+            "file:///home/sahith/confidential/webDevelopment/backend/fireBase": "__default__profile__",
+            "file:///home/sahith/confidential": "__default__profile__",
+            "file:///home/sahith/confidential/webDevelopment/cloneAndProjects/clone/chatGptClone": "__default__profile__",
+            "file:///home/sahith/confidential/webDevelopment/backend/node.js/nodeJsThapa/jwtByThapa": "__default__profile__",
+            "file:///home/sahith/confidential/webDevelopment/folderStructure/folderReactJs": "__default__profile__",
+            "file:///home/sahith/confidential/languages/cpp/apnaCollegeCpp": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -138,7 +144,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/sahith/confidential/webDevelopment/backend/node.js/express"
+                "folderUri": "file:///home/sahith/confidential/languages/cpp/apnaCollegeCpp"
             }
         ],
         "emptyWindows": []
@@ -181,11 +187,98 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/sahith/confidential/languages/cpp/apnaCollegeCpp",
+                                        "path": "/home/sahith/confidential/languages/cpp/apnaCollegeCpp",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/confidential/languages/cpp/apnaCollegeCpp"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/sahith/confidential/webDevelopment/folderStructure/folderReactJs",
+                                        "path": "/home/sahith/confidential/webDevelopment/folderStructure/folderReactJs",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/confidential/webDevelopment/folderStructure/folderReactJs"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/sahith/confidential/webDevelopment/backend/node.js/nodeJsThapa/jwtByThapa",
+                                        "path": "/home/sahith/confidential/webDevelopment/backend/node.js/nodeJsThapa/jwtByThapa",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/confidential/webDevelopment/backend/node.js/nodeJsThapa/jwtByThapa"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/sahith/confidential/webDevelopment/cloneAndProjects/clone/chatGptClone",
+                                        "path": "/home/sahith/confidential/webDevelopment/cloneAndProjects/clone/chatGptClone",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/confidential/webDevelopment/cloneAndProjects/clone/chatGptClone"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/sahith/confidential",
+                                        "path": "/home/sahith/confidential",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/confidential"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/sahith/confidential/webDevelopment/backend/fireBase",
+                                        "path": "/home/sahith/confidential/webDevelopment/backend/fireBase",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/confidential/webDevelopment/backend/fireBase"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/sahith/don-t-break-the-chain-app",
+                                        "path": "/home/sahith/don-t-break-the-chain-app",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/don-t-break-the-chain-app"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/sahith/confidential/webDevelopment/cloneAndProjects/projects/reactOnly",
+                                        "path": "/home/sahith/confidential/webDevelopment/cloneAndProjects/projects/reactOnly",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/confidential/webDevelopment/cloneAndProjects/projects/reactOnly"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -208,94 +301,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/confidential/webDevelopment/frontEnd/next/nextTry"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/sahith/confidential/webDevelopment/frontEnd/next/next-code-evolution",
-                                        "path": "/home/sahith/confidential/webDevelopment/frontEnd/next/next-code-evolution",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/confidential/webDevelopment/frontEnd/next/next-code-evolution"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/sahith/confidential/webDevelopment/cloneAndProjects/clone/chatGptClone",
-                                        "path": "/home/sahith/confidential/webDevelopment/cloneAndProjects/clone/chatGptClone",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/confidential/webDevelopment/cloneAndProjects/clone/chatGptClone"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/sahith/confidential/webDevelopment/cloneAndProjects/projects/nodeProjects/freelnceWebsite",
-                                        "path": "/home/sahith/confidential/webDevelopment/cloneAndProjects/projects/nodeProjects/freelnceWebsite",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/confidential/webDevelopment/cloneAndProjects/projects/nodeProjects/freelnceWebsite"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/sahith/confidential/languages/javascriptWallah",
-                                        "path": "/home/sahith/confidential/languages/javascriptWallah",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/confidential/languages/javascriptWallah"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/sahith/confidential/webDevelopment/cloneAndProjects/projects/nodeProjects/normalWeb",
-                                        "path": "/home/sahith/confidential/webDevelopment/cloneAndProjects/projects/nodeProjects/normalWeb",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/confidential/webDevelopment/cloneAndProjects/projects/nodeProjects/normalWeb"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/sahith/confidential/webDevelopment/cloneAndProjects/projects/mernApplications/jwtCodeDamn",
-                                        "path": "/home/sahith/confidential/webDevelopment/cloneAndProjects/projects/mernApplications/jwtCodeDamn",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/confidential/webDevelopment/cloneAndProjects/projects/mernApplications/jwtCodeDamn"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/sahith/confidential/languages/python",
-                                        "path": "/home/sahith/confidential/languages/python",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/confidential/languages/python"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/sahith/confidential/webDevelopment/cloneAndProjects/projects/mernApplications",
-                                        "path": "/home/sahith/confidential/webDevelopment/cloneAndProjects/projects/mernApplications",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/confidential/webDevelopment/cloneAndProjects/projects/mernApplications"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -334,11 +339,13 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "saveAll",
@@ -478,11 +485,13 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor"
+                        "label": "&&Close Editor",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -531,11 +540,13 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find"
+                        "label": "&&Find",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace"
+                        "label": "&&Replace",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -682,7 +693,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -695,8 +707,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleActivityBarVisibility",
-                                    "label": "&&Activity Bar",
-                                    "checked": true
+                                    "label": "&&Activity Bar"
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
@@ -917,7 +928,7 @@
                     {
                         "id": "editor.action.toggleWordWrap",
                         "label": "&&Word Wrap",
-                        "checked": true
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleStickyScroll",
@@ -938,7 +949,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1558,12 +1570,16 @@
                 "userSettingsLabel": "ctrl+k z"
             },
             "workbench.action.toggleSidebarVisibility": {
-                "label": "Ctrl+B",
-                "userSettingsLabel": "ctrl+b"
+                "label": "Alt+B",
+                "userSettingsLabel": "alt+b"
             },
             "workbench.action.toggleAuxiliaryBar": {
                 "label": "Ctrl+Alt+B",
                 "userSettingsLabel": "ctrl+alt+b"
+            },
+            "workbench.action.toggleActivityBarVisibility": {
+                "label": "Ctrl+B",
+                "userSettingsLabel": "ctrl+b"
             },
             "workbench.action.togglePanel": {
                 "label": "Ctrl+J",
@@ -1830,24 +1846,25 @@
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
-            "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "activityBarWidth": 0,
+            "sideBarWidth": 202,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/sahith/confidential/webDevelopment/backend/node.js/express",
-            "backupPath": "/home/sahith/.config/Code/Backups/0774892a11be9575f240ded3530e7bae",
+            "folder": "file:///home/sahith/confidential/languages/cpp/apnaCollegeCpp",
+            "backupPath": "/home/sahith/.config/Code/Backups/008347c428cb9b3870efd43adde9988f",
             "uiState": {
                 "mode": 0,
-                "x": 1537,
-                "y": 37,
-                "width": 1024,
-                "height": 731
+                "x": 0,
+                "y": 64,
+                "width": 1366,
+                "height": 704
             }
         },
         "openedWindows": []
-    }
+    },
+    "window.experimental.useSandbox": true
 }
