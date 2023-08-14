@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container { 
+    min-height: 93vh;
+    display: flex;
+    padding : 10px 0;
+}
+
+.page

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clockContainer{
+    height: 40vw;
+    width: 40vw;
+    background: url(https://w7.pngwing.com/pngs/980/515/png-transparent-clock-face-analog-clock-without-hands-angle-white-text.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.secondsHand{
+    position : absolute;
+    height: 10rem;
+    top: 1rem;
+    left: 40rem;
+
+
+
+    border: .12rem solid red;
+
+}

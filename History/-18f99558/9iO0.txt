@@ -1,0 +1,7 @@
+sar kbruch -y
+sar kcachegrind -y
+sar kdiamond -y
+sar kdiskfree -y
+sar kfoursinline -y
+sar kgeography -y
+

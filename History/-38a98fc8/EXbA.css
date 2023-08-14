@@ -1,0 +1,35 @@
+.main{
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-image: url("../../background1.jpg");
+    background-size: cover;
+}
+
+.buttonContainer{
+    margin-top: 50px;
+    display : flex;
+    
+}
+
+.title{
+    font-size: 61px;
+}
+
+.subtitle{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.intro-text {
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (min-width : 1200px) {
+    .buttonContainer{
+        padding : 0 200px;
+    }
+    
+}

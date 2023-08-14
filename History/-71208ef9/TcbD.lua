@@ -1,0 +1,19 @@
+-- local longString = [[
+--     this is me in vim 
+--     How are you doing though
+-- ]]
+
+-- local number = 1
+-- number = number + 2
+-- -- print(math.random(100))
+-- local age =1 
+
+-- if (age > 5) then
+--     print("you can drive")
+-- else
+--     print("you can yep")
+-- end
+
+print(string.format("not true = %s" , "sahith"))
+
+

@@ -1,0 +1,8 @@
+.product{
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    background-color: white;
+    flex-direction: column;
+}
+

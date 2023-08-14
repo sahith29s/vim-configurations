@@ -1,0 +1,36 @@
+import React from 'react'
+import "./CheckoutProduct.css"
+
+const CheckoutProduct = (props) => {
+    return (
+        <>
+            <div className="checkoutProduct">
+                <img src={props.image} className="checkoutProduct__image" alt="" />
+
+                <div className="checkoutProduct__info">
+                    <div className="checkoutProduct__title">
+                        {props.title}
+                    </div>
+
+                    <div className="checkoutProduct__price">
+                        <small>$</small>
+                        <strong>{props.price}</strong>
+                    </div>
+
+                    <div className="checkoutProduct__rating">
+                        🌟
+                    </div>
+
+                    <button className="checkoutProduct__button" >Remove From Basket</button>
+
+
+                    </div>
+                    
+                </div>
+
+        </>
+
+    )
+}
+
+export default CheckoutProduct

@@ -1,0 +1,15 @@
+.header{
+    height: 60px;
+    display: flex;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    color: white;
+}
+
+.header__logo{
+    width: 100px;
+    object-fit: contain;
+    
+}

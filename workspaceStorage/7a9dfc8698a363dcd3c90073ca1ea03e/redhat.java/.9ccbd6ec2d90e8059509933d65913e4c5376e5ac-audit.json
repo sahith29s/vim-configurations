@@ -1,0 +1,24 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/sahith/.config/Code/User/workspaceStorage/7a9dfc8698a363dcd3c90073ca1ea03e/redhat.java/.9ccbd6ec2d90e8059509933d65913e4c5376e5ac-audit.json",
+    "files": [
+        {
+            "date": 1687449259037,
+            "name": "/home/sahith/.config/Code/User/workspaceStorage/7a9dfc8698a363dcd3c90073ca1ea03e/redhat.java/client.log.2023-06-22",
+            "hash": "5c2297fe73cf94b6239e17f26085ea68"
+        },
+        {
+            "date": 1687519785108,
+            "name": "/home/sahith/.config/Code/User/workspaceStorage/7a9dfc8698a363dcd3c90073ca1ea03e/redhat.java/client.log.2023-06-23",
+            "hash": "3d173fd1f3694c4bcca870e514bcb494"
+        },
+        {
+            "date": 1687593889485,
+            "name": "/home/sahith/.config/Code/User/workspaceStorage/7a9dfc8698a363dcd3c90073ca1ea03e/redhat.java/client.log.2023-06-24",
+            "hash": "afd0bd063eacfe05d4aa72ec04d298f6"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+import './App.css';
+import { Route, Routes } from "react-router-dom"
+import Header from './Header';
+import Home from './Home';
+import Checkout from './Checkout';
+import { Login } from '@mui/icons-material';
+
+function App() {
+  return (
+    <>
+      <Routes>
+
+        <Route path='/' element={ <> <Header /> <Home /> </>}/>
+        <Route path='/checkout' element={<> <Header /> <Checkout/> </> } />
+        <Route path="/login" element={<Login/>} />
+      </Routes>
+
+    </>
+  );
+}
+
+export default App;

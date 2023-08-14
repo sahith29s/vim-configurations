@@ -1,0 +1,6 @@
+sar kbruch -y
+sar kcachegrind -y
+sar -y
+sar kbruch -y
+sar kbruch -y
+sar kbruch -y

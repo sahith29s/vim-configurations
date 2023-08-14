@@ -1,0 +1,26 @@
+import { useState } from 'react'
+import useStore from "./store/store"
+
+function App() {
+
+  const {text, setText} = useStore()
+
+
+    const handleClick = () =>{
+
+
+
+    };
+  
+
+  return (
+    
+    
+    <>
+    <div value={text} className="content">This is content</div>
+    <button onClick={setText(text)} className="">button </button>
+    </>
+  )
+}
+
+export default App

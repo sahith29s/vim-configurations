@@ -1,0 +1,5 @@
+sar katomic -y
+sar kblackbox -y
+sar kblocks -y
+sar kbounce -y
+sar kbreakout -y

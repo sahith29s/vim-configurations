@@ -1,0 +1,42 @@
+// import React from 'react'
+
+// const MyProfile = () => {
+//     return (
+//         <>
+//             <div>
+//             </div>
+//         </>
+//     )
+// }
+
+// export default MyProfile
+
+// Profile.js
+import React from "react";
+import { Container, Row, Col, Image } from "react-bootstrap";
+
+const Profile = () => {
+    const 
+    // Replace these values with your actual name, email, and image URL
+    const name = "John Doe";
+    const email = "johndoe@example.com";
+    const imageUrl = "https://via.placeholder.com/200"; // Replace with your image URL
+
+    return (
+        <Container className="my-5">
+            <Row className="justify-content-center">
+                <Col md={6} className="text-center">
+                    <Image src={imageUrl} alt="Profile" roundedCircle fluid />
+                </Col>
+            </Row>
+            <Row className="justify-content-center mt-4">
+                <Col md={6} className="text-center">
+                    <h2>{name}</h2>
+                    <p>{email}</p>
+                </Col>
+            </Row>
+        </Container>
+    );
+};
+
+export default Profile;

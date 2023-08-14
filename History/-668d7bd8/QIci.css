@@ -1,0 +1,13 @@
+.checkoutProduct__image{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.checkoutProduct{
+    display: flex;
+}
+
+.checkoutProduct__button{
+    background-color: #f0c14b;
+}

@@ -1,0 +1,16 @@
+.product{
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    background-color: white;
+    flex-direction: column;
+    background-color: white;
+    z-index: 1;
+}
+
+
+.product > div >  img{
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}

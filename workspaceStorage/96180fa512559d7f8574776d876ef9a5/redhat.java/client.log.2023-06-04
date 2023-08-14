@@ -1,0 +1,30 @@
+{
+  message: "Use the JDK from '' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2023-06-04 21:58:58.905'
+}
+{
+  message: 'Starting Java server with: /home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/jre/17.0.7-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/lombok/lombok-1.18.28.jar -jar /home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/sahith/.config/Code/User/globalStorage/redhat.java/1.19.0/config_ss_linux -data /home/sahith/.config/Code/User/workspaceStorage/96180fa512559d7f8574776d876ef9a5/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-06-04 21:58:58.941'
+}
+{
+  message: 'Starting Java server with: /home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/jre/17.0.7-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/lombok/lombok-1.18.28.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/sahith/.config/Code/User/workspaceStorage/96180fa512559d7f8574776d876ef9a5/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/sahith/.config/Code/User/globalStorage/redhat.java/1.19.0/config_linux -data /home/sahith/.config/Code/User/workspaceStorage/96180fa512559d7f8574776d876ef9a5/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-06-04 21:58:59.186'
+}
+{
+  message: "Use the JDK from '' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2023-06-04 21:59:43.314'
+}
+{
+  message: 'Starting Java server with: /home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/jre/17.0.7-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/lombok/lombok-1.18.28.jar -jar /home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/sahith/.config/Code/User/globalStorage/redhat.java/1.19.0/config_ss_linux -data /home/sahith/.config/Code/User/workspaceStorage/96180fa512559d7f8574776d876ef9a5/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-06-04 21:59:43.339'
+}
+{
+  message: 'Starting Java server with: /home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/jre/17.0.7-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/lombok/lombok-1.18.28.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/sahith/.config/Code/User/workspaceStorage/96180fa512559d7f8574776d876ef9a5/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/sahith/.config/Code/User/globalStorage/redhat.java/1.19.0/config_linux -data /home/sahith/.config/Code/User/workspaceStorage/96180fa512559d7f8574776d876ef9a5/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-06-04 21:59:43.496'
+}

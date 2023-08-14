@@ -1,0 +1,11 @@
+.product{
+    display: flex;
+    z-index: 1;
+    background-color: white;
+    flex-direction: column;
+
+}
+
+.product > button{
+    background-color: ;
+}

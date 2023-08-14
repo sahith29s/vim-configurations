@@ -1,0 +1,496 @@
+{
+  message: "Use the JDK from '' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2023-06-22 21:24:19.481'
+}
+{
+  message: 'Starting Java server with: /home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/jre/17.0.7-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/lombok/lombok-1.18.28.jar -jar /home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/sahith/.config/Code/User/globalStorage/redhat.java/1.19.0/config_ss_linux -data /home/sahith/.config/Code/User/workspaceStorage/7a9dfc8698a363dcd3c90073ca1ea03e/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-06-22 21:24:19.512'
+}
+{
+  message: 'Starting Java server with: /home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/jre/17.0.7-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/lombok/lombok-1.18.28.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/sahith/.config/Code/User/workspaceStorage/7a9dfc8698a363dcd3c90073ca1ea03e/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/sahith/.vscode/extensions/redhat.java-1.19.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/sahith/.config/Code/User/globalStorage/redhat.java/1.19.0/config_linux -data /home/sahith/.config/Code/User/workspaceStorage/7a9dfc8698a363dcd3c90073ca1ea03e/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-06-22 21:24:20.032'
+}
+{
+  message: '[Error - 21:26:12] Request completionItem/resolve failed.',
+  level: 'info',
+  timestamp: '2023-06-22 21:26:12.555'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: "java" at 0\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenAccept(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.lang.IllegalArgumentException: "java" at 0\n' +
+    '\tat org.eclipse.jdt.core.Signature.newIllegalArgumentException(Signature.java:3017)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:972)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:875)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toCharArray(Signature.java:2753)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toString(Signature.java:2959)\n' +
+    '\tat org.eclipse.jdt.internal.corext.template.java.SignatureUtil.stripSignatureToFQN(SignatureUtil.java:206)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:201)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.resolveCompletionItem(JDTLanguageServer.java:625)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)\n' +
+    '\t... 10 more\n',
+  level: 'info',
+  timestamp: '2023-06-22 21:26:12.556'
+}
+{
+  message: '[Error - 21:26:13] Request completionItem/resolve failed.',
+  level: 'info',
+  timestamp: '2023-06-22 21:26:13.218'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: "java.applet" at 0\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenAccept(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.lang.IllegalArgumentException: "java.applet" at 0\n' +
+    '\tat org.eclipse.jdt.core.Signature.newIllegalArgumentException(Signature.java:3017)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:972)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:875)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toCharArray(Signature.java:2753)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toString(Signature.java:2959)\n' +
+    '\tat org.eclipse.jdt.internal.corext.template.java.SignatureUtil.stripSignatureToFQN(SignatureUtil.java:206)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:201)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.resolveCompletionItem(JDTLanguageServer.java:625)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)\n' +
+    '\t... 10 more\n',
+  level: 'info',
+  timestamp: '2023-06-22 21:26:13.219'
+}
+{
+  message: '[Error - 21:26:13] Request completionItem/resolve failed.',
+  level: 'info',
+  timestamp: '2023-06-22 21:26:13.322'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: "java.applet" at 0\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenAccept(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.lang.IllegalArgumentException: "java.applet" at 0\n' +
+    '\tat org.eclipse.jdt.core.Signature.newIllegalArgumentException(Signature.java:3017)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:972)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:875)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toCharArray(Signature.java:2753)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toString(Signature.java:2959)\n' +
+    '\tat org.eclipse.jdt.internal.corext.template.java.SignatureUtil.stripSignatureToFQN(SignatureUtil.java:206)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:201)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.resolveCompletionItem(JDTLanguageServer.java:625)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)\n' +
+    '\t... 10 more\n',
+  level: 'info',
+  timestamp: '2023-06-22 21:26:13.322'
+}
+{
+  message: '[Error - 21:26:13] Request completionItem/resolve failed.',
+  level: 'info',
+  timestamp: '2023-06-22 21:26:13.486'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: "java.util" at 0\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenAccept(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.lang.IllegalArgumentException: "java.util" at 0\n' +
+    '\tat org.eclipse.jdt.core.Signature.newIllegalArgumentException(Signature.java:3017)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:972)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:875)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toCharArray(Signature.java:2753)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toString(Signature.java:2959)\n' +
+    '\tat org.eclipse.jdt.internal.corext.template.java.SignatureUtil.stripSignatureToFQN(SignatureUtil.java:206)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:201)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.resolveCompletionItem(JDTLanguageServer.java:625)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)\n' +
+    '\t... 10 more\n',
+  level: 'info',
+  timestamp: '2023-06-22 21:26:13.486'
+}
+{
+  message: '[Error - 21:26:15] Request completionItem/resolve failed.',
+  level: 'info',
+  timestamp: '2023-06-22 21:26:15.471'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: "java.util.logging" at 0\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenAccept(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.lang.IllegalArgumentException: "java.util.logging" at 0\n' +
+    '\tat org.eclipse.jdt.core.Signature.newIllegalArgumentException(Signature.java:3017)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:972)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:875)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toCharArray(Signature.java:2753)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toString(Signature.java:2959)\n' +
+    '\tat org.eclipse.jdt.internal.corext.template.java.SignatureUtil.stripSignatureToFQN(SignatureUtil.java:206)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:201)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.resolveCompletionItem(JDTLanguageServer.java:625)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)\n' +
+    '\t... 10 more\n',
+  level: 'info',
+  timestamp: '2023-06-22 21:26:15.472'
+}
+{
+  message: '[Error - 21:26:16] Request completionItem/resolve failed.',
+  level: 'info',
+  timestamp: '2023-06-22 21:26:16.107'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: "java.util.concurrent" at 0\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenAccept(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.lang.IllegalArgumentException: "java.util.concurrent" at 0\n' +
+    '\tat org.eclipse.jdt.core.Signature.newIllegalArgumentException(Signature.java:3017)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:972)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:875)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toCharArray(Signature.java:2753)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toString(Signature.java:2959)\n' +
+    '\tat org.eclipse.jdt.internal.corext.template.java.SignatureUtil.stripSignatureToFQN(SignatureUtil.java:206)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:201)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.resolveCompletionItem(JDTLanguageServer.java:625)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)\n' +
+    '\t... 10 more\n',
+  level: 'info',
+  timestamp: '2023-06-22 21:26:16.108'
+}
+{
+  message: '[Error - 21:26:16] Request completionItem/resolve failed.',
+  level: 'info',
+  timestamp: '2023-06-22 21:26:16.172'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: "java.util.concurrent" at 0\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenAccept(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.lang.IllegalArgumentException: "java.util.concurrent" at 0\n' +
+    '\tat org.eclipse.jdt.core.Signature.newIllegalArgumentException(Signature.java:3017)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:972)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:875)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toCharArray(Signature.java:2753)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toString(Signature.java:2959)\n' +
+    '\tat org.eclipse.jdt.internal.corext.template.java.SignatureUtil.stripSignatureToFQN(SignatureUtil.java:206)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:201)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.resolveCompletionItem(JDTLanguageServer.java:625)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)\n' +
+    '\t... 10 more\n',
+  level: 'info',
+  timestamp: '2023-06-22 21:26:16.172'
+}
+{
+  message: '[Error - 21:26:16] Request completionItem/resolve failed.',
+  level: 'info',
+  timestamp: '2023-06-22 21:26:16.374'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: "java.util.spi" at 0\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenAccept(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.lang.IllegalArgumentException: "java.util.spi" at 0\n' +
+    '\tat org.eclipse.jdt.core.Signature.newIllegalArgumentException(Signature.java:3017)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:972)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:875)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toCharArray(Signature.java:2753)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toString(Signature.java:2959)\n' +
+    '\tat org.eclipse.jdt.internal.corext.template.java.SignatureUtil.stripSignatureToFQN(SignatureUtil.java:206)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:201)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.resolveCompletionItem(JDTLanguageServer.java:625)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)\n' +
+    '\t... 10 more\n',
+  level: 'info',
+  timestamp: '2023-06-22 21:26:16.374'
+}
+{
+  message: '[Error - 21:29:42] Request completionItem/resolve failed.',
+  level: 'info',
+  timestamp: '2023-06-22 21:29:42.477'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: "sun.nio.ch" at 0\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenAccept(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.lang.IllegalArgumentException: "sun.nio.ch" at 0\n' +
+    '\tat org.eclipse.jdt.core.Signature.newIllegalArgumentException(Signature.java:3017)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:972)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:875)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toCharArray(Signature.java:2753)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toString(Signature.java:2959)\n' +
+    '\tat org.eclipse.jdt.internal.corext.template.java.SignatureUtil.stripSignatureToFQN(SignatureUtil.java:206)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:201)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.resolveCompletionItem(JDTLanguageServer.java:625)\n' +
+    '\tat jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)\n' +
+    '\t... 10 more\n',
+  level: 'info',
+  timestamp: '2023-06-22 21:29:42.478'
+}
+{
+  message: '[Error - 21:30:58] Request completionItem/resolve failed.',
+  level: 'info',
+  timestamp: '2023-06-22 21:30:58.081'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: "sun" at 0\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenAccept(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.lang.IllegalArgumentException: "sun" at 0\n' +
+    '\tat org.eclipse.jdt.core.Signature.newIllegalArgumentException(Signature.java:3017)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:972)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:875)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toCharArray(Signature.java:2753)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toString(Signature.java:2959)\n' +
+    '\tat org.eclipse.jdt.internal.corext.template.java.SignatureUtil.stripSignatureToFQN(SignatureUtil.java:206)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:201)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.resolveCompletionItem(JDTLanguageServer.java:625)\n' +
+    '\tat jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)\n' +
+    '\t... 10 more\n',
+  level: 'info',
+  timestamp: '2023-06-22 21:30:58.081'
+}
+{
+  message: '[Error - 21:30:58] Request completionItem/resolve failed.',
+  level: 'info',
+  timestamp: '2023-06-22 21:30:58.207'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: "sun.management" at 0\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenAccept(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.lang.IllegalArgumentException: "sun.management" at 0\n' +
+    '\tat org.eclipse.jdt.core.Signature.newIllegalArgumentException(Signature.java:3017)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:972)\n' +
+    '\tat org.eclipse.jdt.core.Signature.appendTypeSignature(Signature.java:875)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toCharArray(Signature.java:2753)\n' +
+    '\tat org.eclipse.jdt.core.Signature.toString(Signature.java:2959)\n' +
+    '\tat org.eclipse.jdt.internal.corext.template.java.SignatureUtil.stripSignatureToFQN(SignatureUtil.java:206)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:201)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.resolveCompletionItem(JDTLanguageServer.java:625)\n' +
+    '\tat jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)\n' +
+    '\t... 10 more\n',
+  level: 'info',
+  timestamp: '2023-06-22 21:30:58.207'
+}
