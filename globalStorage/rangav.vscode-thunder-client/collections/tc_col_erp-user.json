@@ -1,0 +1,23 @@
+{
+    "_id": "748957dc-acc2-4e3f-968b-590443738d12",
+    "colName": "erp user ",
+    "created": "2023-09-07T09:40:56.742Z",
+    "sortNum": 30000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "fbc662f4-e05c-413d-a4ef-55682aa18478",
+            "colId": "748957dc-acc2-4e3f-968b-590443738d12",
+            "containerId": "",
+            "name": "signup",
+            "url": "http://localhost:8888/api/user/create",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-09-07T09:41:05.392Z",
+            "modified": "2023-09-07T09:59:45.044Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

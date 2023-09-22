@@ -1,4 +1,0 @@
-{
-  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjAsImlhdCI6MTY5MTk4NjQ4MiwiZXhwIjoxNjkxOTg3MzgyfQ.NmMd0HAKdU9Adl3QLUfYuYkPoSzT829Ia6V3ySq8BW8",
-  "email": "honey.sahith29@gmail.com"
-}

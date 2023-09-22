@@ -1,0 +1,187 @@
+{
+    "_id": "8244f12f-8726-41aa-a756-0a3751d58058",
+    "colName": "amazon Clone MyTry",
+    "created": "2023-08-10T05:10:15.833Z",
+    "sortNum": 10000,
+    "folders": [
+        {
+            "_id": "8a07a349-5608-48d9-9b92-72b4db7c5d18",
+            "name": "product",
+            "containerId": "",
+            "created": "2023-08-15T03:28:09.751Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "34e7cee1-9ed4-4733-a5ef-f68e346bb10c",
+            "name": "sign up",
+            "containerId": "",
+            "created": "2023-08-15T03:28:30.336Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "c9480070-0187-4d42-8b66-09616e68fa93",
+            "name": "login",
+            "containerId": "",
+            "created": "2023-08-18T12:19:03.305Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "8f5e6303-4f2d-49bb-a31f-33461e20af37",
+            "colId": "8244f12f-8726-41aa-a756-0a3751d58058",
+            "containerId": "34e7cee1-9ed4-4733-a5ef-f68e346bb10c",
+            "name": "sign up post",
+            "url": "localhost:5000/signup/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-08-10T05:10:23.003Z",
+            "modified": "2023-08-10T12:11:51.457Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\" : \"sahith\",\n  \"email\" : \"sahith\",\n  \"password\" : \"sahith\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ea852f98-626b-4f6e-8aa3-a885615a0c3d",
+            "colId": "8244f12f-8726-41aa-a756-0a3751d58058",
+            "containerId": "34e7cee1-9ed4-4733-a5ef-f68e346bb10c",
+            "name": "sign up get",
+            "url": "localhost:5000/signup/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-08-10T12:29:39.894Z",
+            "modified": "2023-08-10T12:30:20.641Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f52120f1-9e2f-4f19-9bf2-1ef1a467bc54",
+            "colId": "8244f12f-8726-41aa-a756-0a3751d58058",
+            "containerId": "34e7cee1-9ed4-4733-a5ef-f68e346bb10c",
+            "name": "sign up patch",
+            "url": "localhost:5000/signup/",
+            "method": "PATCH",
+            "sortNum": 30000,
+            "created": "2023-08-10T12:37:13.065Z",
+            "modified": "2023-08-10T12:44:24.068Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"_id\" : \"64d4d86895bebb5db77077b6\",\n  \"username\" : \"boylkj\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e36673a4-4b9d-462e-955a-1f682c17c9a8",
+            "colId": "8244f12f-8726-41aa-a756-0a3751d58058",
+            "containerId": "34e7cee1-9ed4-4733-a5ef-f68e346bb10c",
+            "name": "sign up delete",
+            "url": "localhost:5000/signup/",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-08-10T12:47:07.270Z",
+            "modified": "2023-08-10T12:47:33.820Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"_id\" : \"64d4d86895bebb5db77077b6\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "fb366d09-9b84-4554-baa8-cfaf2297c9df",
+            "colId": "8244f12f-8726-41aa-a756-0a3751d58058",
+            "containerId": "8a07a349-5608-48d9-9b92-72b4db7c5d18",
+            "name": "create product",
+            "url": "http://localhost:5000/product",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-08-15T03:28:52.169Z",
+            "modified": "2023-08-15T03:32:33.266Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\" : 1,\n  \"money\" : 10,\n  \"title\" : \"this is me inside the vim\",\n  \"image\" : \"man\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a80f8b2d-f91d-4773-973b-5e0e79c3ad39",
+            "colId": "8244f12f-8726-41aa-a756-0a3751d58058",
+            "containerId": "8a07a349-5608-48d9-9b92-72b4db7c5d18",
+            "name": "get all product",
+            "url": "http://localhost:5000/product",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-08-15T03:48:30.535Z",
+            "modified": "2023-08-15T03:48:43.929Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d7ec1d9c-b245-4350-84a7-2a9cc2175a67",
+            "colId": "8244f12f-8726-41aa-a756-0a3751d58058",
+            "containerId": "8a07a349-5608-48d9-9b92-72b4db7c5d18",
+            "name": "delete a single product",
+            "url": "http://localhost:5000/product",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2023-08-15T03:53:52.391Z",
+            "modified": "2023-08-15T03:55:28.311Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \"id\" : 1}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e3a83411-5875-484c-9cd4-440deaae4088",
+            "colId": "8244f12f-8726-41aa-a756-0a3751d58058",
+            "containerId": "c9480070-0187-4d42-8b66-09616e68fa93",
+            "name": "login verifcation",
+            "url": "http://localhost:5000/login",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2023-08-18T12:19:36.090Z",
+            "modified": "2023-08-18T12:21:21.902Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\" : \"honey.sahith029@gmail.com\",\n  \"password\" : \"sahith\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a897ba81-568d-45e9-a9d5-a246e5942f6d",
+            "colId": "8244f12f-8726-41aa-a756-0a3751d58058",
+            "containerId": "",
+            "name": "root get",
+            "url": "http://localhost:5000/",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2023-08-18T13:54:25.032Z",
+            "modified": "2023-08-18T13:54:34.680Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

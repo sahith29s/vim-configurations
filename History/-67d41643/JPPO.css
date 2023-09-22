@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo img {
+    height: 5vh;
+    margin: 0px 1rem;
+}
+
+.navbar {
+    display: flex;
+    background-color: green;
+    height: 3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+}
+
+.right div {
+    margin: 0px 1rem;
+}
+
+/* .search label{
+    color: white;
+} */
+
+.inputSearch {
+    width: 20rem;
+    height: 2rem;
+    border: 1rem solid white;
+    border-radius: .6rem;
+}
+
+@media screen and (min-width: 850px) {
+    .hamburger {
+        display: none;
+        margin: 0px 1rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    /* .right { 
+        display: none;
+    }
+    .search { 
+        display: none;
+    } */
+    .right{
+        display: block;
+        position: relative;
+        margin-top: 20vh;
+        right: 9rem;
+    }
+
+    .search {
+        position: relative;
+        top : 10rem;
+
+
+    }
+    .inputSearch {
+        background-color: blue;
+    }
+}
+
+.hamburger { 
+    margin: 0px 1rem;
+}
+/* 
+.hamburgerClickRight{
+    display: flex;
+    flex-direction: ;
+
+
+} */
+
+.hamburger img { 
+    height: 2rem;
+    border-radius: .3rem;
+}
+

@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 100%;
+    height: auto;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-color: black;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+}
+
+#nav a,
+#nav h2 {
+    color: white;
+    text-decoration: none;
+}
+
+#heading {
+    margin-top: 40px;
+}
+
+#third-heading {
+    /* margin-left: 60%; */
+    /* margin-left: 20%; */
+    position: relative;
+    left: 20vw;
+}
+
+#heading div {
+    display: inline;
+}
+
+#heading h1 {
+    font-size: 9vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+#second-heading {
+    margin-left: 100px;
+}

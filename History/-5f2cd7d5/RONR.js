@@ -1,0 +1,10 @@
+let hamburger = document.querySelector(".hamburger")
+let search = document.querySelector(".search")
+let right = document.querySelector(".right")
+let main 
+
+hamburger.addEventListener("click" , () =>{
+    search.classList.toggle("displayBlock")
+    right.classList.toggle("displayBlock")
+
+})
