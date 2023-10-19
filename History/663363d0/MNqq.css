@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .ul{
+    display: flex;
+
+}
+
+nav .ul li{
+    margin-right: 20px;
+    list-style: none;
+}
+
+.bl{
+    background-color: red;
+    display: none;
+}
+
+

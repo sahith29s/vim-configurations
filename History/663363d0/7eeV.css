@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .ul{
+    display: flex;
+}
+
+.bl{
+    background-color: red;
+    
+}

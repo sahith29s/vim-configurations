@@ -1,0 +1,11 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .ul{
+    display: flex;
+}
+nav ul ul li{
+    display: hidden;
+}

@@ -195,7 +195,6 @@
             "file:///home/sahith/sahith/webDevelopment/frontEnd/next/myTryNext/my-app": "__default__profile__",
             "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/nextProjects": "__default__profile__",
             "file:///home/sahith/sahith/typescript": "__default__profile__",
-            "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/noteZipperMern": "__default__profile__",
             "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/nextProjects/next-todo": "__default__profile__",
             "file:///home/sahith/sahith/typescript/thapaTypeScript": "__default__profile__",
             "file:///home/sahith/sahith/appDevelopment/hiteshNative/hitesh1": "__default__profile__",
@@ -223,7 +222,6 @@
             "file:///home/sahith/sahith/all/python/machineLearning/codebasics": "__default__profile__",
             "file:///home/sahith/opensource/AFFiNE": "__default__profile__",
             "file:///home/sahith/sahith/all/python/dataScience/harryDataSci": "__default__profile__",
-            "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/reactOnly": "__default__profile__",
             "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/reactOnly/pass-gen": "__default__profile__",
             "file:///home/sahith/sahith/all/javascript/javascriptDsa": "__default__profile__",
             "file:///home/sahith/sahith/all/python/machineLearning/harry": "__default__profile__",
@@ -232,7 +230,6 @@
             "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/vanillaProjects/firstWebsite": "__default__profile__",
             "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/eCommerceCdrDst/e-commerce-client": "__default__profile__",
             "file:///home/sahith/opensource/cal.com": "__default__profile__",
-            "file:///home/sahith/sahith/all/python": "__default__profile__",
             "file:///home/sahith/opensource": "__default__profile__",
             "file:///home/sahith/opensource/evershop": "__default__profile__",
             "file:///home/sahith/sahith/all/goLang": "__default__profile__",
@@ -243,16 +240,34 @@
             "file:///home/sahith/sahith/webDevelopment/frontEnd/react/react.js/modal": "__default__profile__",
             "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/vanillaProjects/justWebsite": "__default__profile__",
             "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/chatApp": "__default__profile__",
-            "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/myTry": "__default__profile__",
-            "file:///home/sahith/sahith/all/javascript": "__default__profile__",
             "file:///home/sahith/sahith/webDevelopment/frontEnd/next/sheryiansNext": "__default__profile__",
-            "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/vanillaProjects/sheryians/proj1": "__default__profile__",
             "file:///home/sahith/opensource/axios": "__default__profile__",
             "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/chat-road-side": "__default__profile__",
             "file:///home/sahith/opensource/devui": "__default__profile__",
             "file:///home/sahith/opensource/piyushgargdev-nextjs": "__default__profile__",
             "file:///home/sahith/sahith/all/cpp/hiteshCpp": "__default__profile__",
             "file:///home/sahith/sahith/all/cpp/dsaHarry": "__default__profile__",
+            "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/vanillaProjects/sheryians/proj1": "__default__profile__",
+            "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/vanillaProjects/carousel": "__default__profile__",
+            "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/vanillaProjects/typewriterEffect": "__default__profile__",
+            "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/vanillaProjects/sheryians/animWeb": "__default__profile__",
+            "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/vanillaProjects/navbar": "__default__profile__",
+            "file:///home/sahith/devui": "__default__profile__",
+            "file:///home/sahith/sahith/all/cpp/leetcodeDsa/romanToInteger": "__default__profile__",
+            "file:///home/sahith/opensource/ToolJet": "__default__profile__",
+            "file:///home/sahith/sahith/all/python": "__default__profile__",
+            "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/noteZipperMern": "__default__profile__",
+            "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/food_delivery": "__default__profile__",
+            "file:///home/sahith/Desktop": "__default__profile__",
+            "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/clone/githubClone/frontend": "__default__profile__",
+            "file:///home/sahith/sahith/git": "__default__profile__",
+            "file:///home/sahith/sahith/all/javascript": "__default__profile__",
+            "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/reactOnly": "__default__profile__",
+            "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/reactOnly/navbar": "__default__profile__",
+            "file:///home/sahith/opensource/laundry-care": "__default__profile__",
+            "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/myTry": "__default__profile__",
+            "file:///home/sahith/sahith/all/cpp": "__default__profile__",
+            "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/todo-road-cdr": "__default__profile__",
             "file:///home/sahith/sahith/all/cpp/dsaCppBabbar": "__default__profile__"
         },
         "emptyWindows": {}
@@ -263,16 +278,10 @@
         "workspaces": [],
         "folders": [
             {
+                "folderUri": "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/todo-road-cdr"
+            },
+            {
                 "folderUri": "file:///home/sahith/sahith/all/cpp/dsaCppBabbar"
-            },
-            {
-                "folderUri": "file:///home/sahith/opensource/piyushgargdev-nextjs"
-            },
-            {
-                "folderUri": "file:///home/sahith/sahith/all/cpp/hiteshCpp"
-            },
-            {
-                "folderUri": "file:///home/sahith/sahith/all/cpp/dsaHarry"
             }
         ],
         "emptyWindows": []
@@ -315,8 +324,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -336,89 +344,67 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/sahith/sahith/all/cpp/dsaHarry",
-                                        "path": "/home/sahith/sahith/all/cpp/dsaHarry",
+                                        "external": "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/todo-road-cdr",
+                                        "path": "/home/sahith/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/todo-road-cdr",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/sahith/all/cpp/dsaHarry"
+                                    "label": "~/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/todo-road-cdr"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/sahith/sahith/all/cpp/hiteshCpp",
-                                        "path": "/home/sahith/sahith/all/cpp/hiteshCpp",
+                                        "external": "file:///home/sahith/sahith/all/cpp",
+                                        "path": "/home/sahith/sahith/all/cpp",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/sahith/all/cpp/hiteshCpp"
+                                    "label": "~/sahith/all/cpp"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/sahith/opensource/piyushgargdev-nextjs",
-                                        "path": "/home/sahith/opensource/piyushgargdev-nextjs",
+                                        "external": "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/myTry",
+                                        "path": "/home/sahith/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/myTry",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/opensource/piyushgargdev-nextjs"
+                                    "label": "~/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/myTry"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/sahith/opensource/devui",
-                                        "path": "/home/sahith/opensource/devui",
+                                        "external": "file:///home/sahith/opensource/laundry-care",
+                                        "path": "/home/sahith/opensource/laundry-care",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/opensource/devui"
+                                    "label": "~/opensource/laundry-care"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/chat-road-side",
-                                        "path": "/home/sahith/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/chat-road-side",
+                                        "external": "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/reactOnly/navbar",
+                                        "path": "/home/sahith/sahith/webDevelopment/cloneAndProjects/projects/reactOnly/navbar",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/sahith/webDevelopment/cloneAndProjects/projects/mernApplications/chat-road-side"
+                                    "label": "~/sahith/webDevelopment/cloneAndProjects/projects/reactOnly/navbar"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/sahith/opensource/axios",
-                                        "path": "/home/sahith/opensource/axios",
+                                        "external": "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/reactOnly",
+                                        "path": "/home/sahith/sahith/webDevelopment/cloneAndProjects/projects/reactOnly",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/opensource/axios"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/projects/vanillaProjects/sheryians/proj1",
-                                        "path": "/home/sahith/sahith/webDevelopment/cloneAndProjects/projects/vanillaProjects/sheryians/proj1",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/sahith/webDevelopment/cloneAndProjects/projects/vanillaProjects/sheryians/proj1"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/sahith/sahith/webDevelopment/frontEnd/next/sheryiansNext",
-                                        "path": "/home/sahith/sahith/webDevelopment/frontEnd/next/sheryiansNext",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/sahith/webDevelopment/frontEnd/next/sheryiansNext"
+                                    "label": "~/sahith/webDevelopment/cloneAndProjects/projects/reactOnly"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -430,6 +416,28 @@
                                     },
                                     "enabled": true,
                                     "label": "~/sahith/all/javascript"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/sahith/sahith/git",
+                                        "path": "/home/sahith/sahith/git",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/sahith/git"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/sahith/sahith/webDevelopment/cloneAndProjects/clone/githubClone/frontend",
+                                        "path": "/home/sahith/sahith/webDevelopment/cloneAndProjects/clone/githubClone/frontend",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/sahith/webDevelopment/cloneAndProjects/clone/githubClone/frontend"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -602,13 +610,6 @@
                                     }
                                 },
                                 {
-                                    "id": "workbench.userDataSync.actions.turnOn",
-                                    "label": "Turn on Settings Sync..."
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.openSettings",
                                     "label": "&&Settings"
                                 },
@@ -654,6 +655,13 @@
                                 {
                                     "id": "settings.filterByOnline",
                                     "label": "&&Online Services Settings"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.userDataSync.actions.turnOn",
+                                    "label": "Backup and Sync Settings..."
                                 }
                             ]
                         }
@@ -886,7 +894,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1083,6 +1092,10 @@
                         "label": "E&&xtensions"
                     },
                     {
+                        "id": "workbench.view.extension.test",
+                        "label": "T&&esting"
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -1193,54 +1206,45 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3",
-                                    "enabled": false
+                                    "label": "Group &&3"
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4",
-                                    "enabled": false
+                                    "label": "Group &&4"
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5",
-                                    "enabled": false
+                                    "label": "Group &&5"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group",
-                                    "enabled": false
+                                    "label": "&&Next Group"
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group",
-                                    "enabled": false
+                                    "label": "&&Previous Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left",
-                                    "enabled": false
+                                    "label": "Group &&Left"
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right",
-                                    "enabled": false
+                                    "label": "Group &&Right"
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above",
-                                    "enabled": false
+                                    "label": "Group &&Above"
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below",
-                                    "enabled": false
+                                    "label": "Group &&Below"
                                 }
                             ]
                         }
@@ -1666,8 +1670,8 @@
                 "userSettingsLabel": "ctrl+c"
             },
             "editor.action.clipboardPasteAction": {
-                "label": "Ctrl+Shift+V",
-                "userSettingsLabel": "ctrl+shift+v"
+                "label": "Ctrl+V",
+                "userSettingsLabel": "ctrl+v"
             },
             "editor.action.startFindReplaceAction": {
                 "label": "Ctrl+F",
@@ -2029,8 +2033,8 @@
                 "display": 8564195996398418,
                 "width": 1024,
                 "height": 731,
-                "x": 1567,
-                "y": 37
+                "x": -749,
+                "y": 64
             }
         },
         "openedWindows": []

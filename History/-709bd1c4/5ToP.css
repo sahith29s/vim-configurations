@@ -1,0 +1,17 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0%;
+    
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+
+.nav{
+    animation: fade-in 1s ease-in-out;
+}
+.nav{
+  animation: fade-out 1s ease-in-out;
+}
