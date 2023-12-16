@@ -1,0 +1,1 @@
+fetch("https://gist.githubusercontent.com/airyboy/b211c5cb7c395069cbb427e1c06ed48d/raw/b21a1a39d0516bada97af4e9e4a741e1d2af9682/keybindings.json").then(res => res.json()).then(res =>console.log(res))

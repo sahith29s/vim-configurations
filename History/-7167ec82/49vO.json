@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "new": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp"
+    }
+} // {
+//     "files.associations": {
+//         "ostream": "cpp",
+//         "iostream": "cpp",
+//         "*.tcc": "cpp",
+//         "array": "cpp",
+//         "string_view": "cpp",
+//         "initializer_list": "cpp",
+//         "utility": "cpp",
+//         "deque": "cpp",
+//         "algorithm": "cpp",
+//         "cmath": "cpp",
+//         "new": "cpp"
+//     },
+// }

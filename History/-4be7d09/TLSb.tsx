@@ -1,0 +1,49 @@
+// src/App.tsx
+import React from 'react';
+import './App.css';
+
+const App: React.FC = () => {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+      <div className="bg-white p-8 rounded-lg shadow-md">
+        <input
+          type="text"
+          className="w-full mb-4 p-2 text-2xl text-right border-b-2 border-gray-300 focus:outline-none focus:border-blue-500"
+          placeholder="0"
+          readOnly
+        />
+
+        <div className="grid grid-cols-4 gap-4">
+          {renderButton('7')}
+          {renderButton('8')}
+          {renderButton('9')}
+          {renderOperator('/')}
+          {renderButton('4')}
+          {renderButton('5')}
+          {renderButton('6')}
+          {renderOperator('*')}
+          {renderButton('1')}
+          {renderButton('2')}
+          {renderButton('3')}
+          {renderOperator('-')}
+          {renderButton('0')}
+          {/* {renderCalculateButton('=')} */}
+          {renderOperator('+')}
+        </div>
+
+        <div className="mt-4 grid grid-cols-4 gap-4">
+          {/* {renderClearButton('C')} */}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const renderButton = (value: string) => (
+  <button className="p-4 bg-gray-300 text-gray-800 text-2xl rounded" key={value}>
+    {value}
+  </button>
+);
+
+const renderOperator = (operator: string) => (
+  <button className="p-4 bg-orange-500 text-white text-2xl rounded" key={oper

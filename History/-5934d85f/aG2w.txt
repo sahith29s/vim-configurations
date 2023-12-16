@@ -1,0 +1,14 @@
+Enter the data : Enter data for inserting in left of 1
+Enter the data : Enter data for inserting in left of 3
+Enter the data : Enter data for inserting in left of 7
+Enter the data : Enter data for inserting in right of 7
+Enter the data : Enter data for inserting in right of 3
+Enter the data : Enter data for inserting in left of 11
+Enter the data : Enter data for inserting in right of 11
+Enter the data : Enter data for inserting in right of 1
+Enter the data : Enter data for inserting in left of 5
+Enter the data : Enter data for inserting in left of 17
+Enter the data : Enter data for inserting in right of 17
+Enter the data : Enter data for inserting in right of 5
+Enter the data : 
+1 

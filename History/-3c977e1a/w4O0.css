@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.setBackground {
+    background-image: url("./assets/photo.png");
+    background-size: contain;
+    background-repeat: no-repeat no-repeat;
+}
+
+.font-amita {
+    /* font-family: 'Akaya Kanadaka'; */
+    font-family: 'Amita';
+}
+
+.leftBox {
+    @apply float-left clear-both max-w-[40%] bg-gray-500 shadow-2xl rounded-xl px-3 my-[.15rem]
+}
+
+.rightBox {
+    @apply float-right clear-both max-w-[40%] bg-green-500 shadow-2xl rounded-xl px-3 my-[.15rem]
+}
+
+.name {
+    @apply text-orange-400
+}
+
+.message {
+    @apply text-white
+}
+
+.ticTacToeBoxTop {
+    @apply flex items-center justify-center text-[200%] font-amita order-[.001rem] w-[10vw] h-[10vw] cursor-pointer rounded-[2rem] border-purple-500 border-r-[.001rem]
+    border-b-[.001rem] border-l-[.001rem]
+}
+
+.ticTacToeBoxTop {
+    @apply flex items-center justify-center text-[200%] font-amita order-[.001rem] w-[10vw] h-[10vw] cursor-pointer rounded-[2rem] border-purple-500 border-r-[.001rem]
+    border-b-[.001rem] border-l-[.001rem]
+}

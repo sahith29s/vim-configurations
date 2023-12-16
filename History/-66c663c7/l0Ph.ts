@@ -1,0 +1,14 @@
+import mongoose from "mongoose";
+
+const connectDB = async (URI: string) => {
+    try {
+        await mongoose.connect(URI)
+        console.log("sahith");
+    }
+    catch (error) {
+        // console.log(error);
+        console.log("not");
+    };
+};
+
+export default connectDB;

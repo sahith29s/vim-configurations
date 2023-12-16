@@ -1,0 +1,2 @@
+MONGO_URI="mongodb+srv://sahith:sahith@cluster0.7szhj0r.mongodb.net/deployWebsite?retryWrites=true&w=majority"
+JWT_SECRET="sahith29"

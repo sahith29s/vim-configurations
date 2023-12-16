@@ -1,0 +1,576 @@
+{
+  "files.autoSave": "afterDelay",
+  "code-runner.runInTerminal": true,
+  "explorer.confirmDelete": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "djangoHTML": "djangoHTML",
+    "django-html": "html"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "screencastMode.fontSize": 20,
+  "screencastMode.verticalOffset": 0,
+  "diffEditor.wordWrap": "on",
+  "editor.wordWrap": "on",
+  "git.openRepositoryInParentFolders": "never",
+  "editor.lineNumbers": "relative",
+  "editor.cursorBlinking": "expand",
+  "[handlebars]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  // vim normal mode
+  "vim.normalModeKeyBindings": [
+    // for surrounding a word with any (quotes, prentheis, flower brackets)
+    {
+      "before": [
+        "<leader>",
+        "r"
+      ],
+      "after": [
+        "y",
+        "s",
+        "i",
+        "w"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "t"
+      ],
+      "after": [
+        "m",
+        "q",
+        "u",
+        "`",
+        "q"
+      ]
+    },
+    // { "before" : ["<leader>" , "t"], "command" : ["workbench.action.tasks.build"] },
+    {
+      "before": [
+        "<leader>",
+        "s"
+      ],
+      "after": [
+        "S"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "/"
+      ],
+      "after": [
+        "g",
+        "c",
+        "c",
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "o"
+      ],
+      "after": [
+        "O"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "g"
+      ],
+      "after": [
+        "G"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "v"
+      ],
+      "after": [
+        "V"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "a"
+      ],
+      "after": [
+        "A"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "f"
+      ],
+      "after": [
+        "I"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "i"
+      ],
+      "after": [
+        "c",
+        "i",
+        "t"
+      ]
+    },
+    // tab
+    {
+      "before": [
+        "<tab>"
+      ],
+      "commands": [
+        "workbench.action.nextEditor"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "l"
+      ],
+      "commands": [
+        "workbench.action.focusLeftGroup"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "u"
+      ],
+      "commands": [
+        "workbench.action.focusAboveGroup"
+      ]
+    }
+  ],
+  // Vim insert mode
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "s"
+      ],
+      "after": [
+        "j",
+        "k",
+        "S"
+      ]
+    },
+    {
+      "before": [
+        "j",
+        ";"
+      ],
+      "after": [
+        "<ESC>",
+        "m",
+        "q",
+        "A",
+        ";",
+        "<ESC>",
+        "`",
+        "q",
+        "a"
+      ]
+    },
+    {
+      "before": [
+        "j",
+        "a"
+      ],
+      "after": [
+        "j",
+        "k",
+        "A"
+      ]
+    },
+    {
+      "before": [
+        "j",
+        "i"
+      ],
+      "after": [
+        "j",
+        "k",
+        "I"
+      ]
+    },
+    {
+      "before": [
+        "j",
+        "v"
+      ],
+      "after": [
+        "j",
+        "k",
+        "V"
+      ]
+    },
+    {
+      "before": [
+        "j",
+        "d"
+      ],
+      "after": [
+        "j",
+        "k",
+        "o"
+      ]
+    },
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    },
+    {
+      "before": [
+        "k",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    },
+    {
+      "before": [
+        "j",
+        "f"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    },
+    {
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [
+        "<leader>",
+        "/"
+      ],
+      "after": [
+        "g",
+        "c",
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "g"
+      ],
+      "after": [
+        "G",
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "/"
+      ],
+      "after": [
+        "g",
+        "c",
+      ]
+    },
+    {
+      "refore": [
+        "<"
+      ],
+      "after": [
+        "<",
+        "g",
+        "v"
+      ]
+    }
+  ],
+  // Vim normal mode
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // { "before": ["<leader>" , "p" ],"command": [{"workbench.action.increaseViewWidth" } ] },
+    {
+      "before": [
+        "<leader>",
+        ";"
+      ],
+      "after": [
+        "m",
+        "q",
+        "A",
+        ";",
+        "<ESC>",
+        "`",
+        "q",
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        ";"
+      ],
+      "after": [
+        "m",
+        "q",
+        "A",
+        ";",
+        "<ESC>",
+        "`",
+        "q",
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "/"
+      ],
+      "after": [
+        "g",
+        "c",
+        "c"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        ";"
+      ],
+      "after": [
+        "m",
+        "q",
+        "A",
+        ";",
+        "<ESC>",
+        "`",
+        "q",
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        ";"
+      ],
+      "after": [
+        "m",
+        "q",
+        "A",
+        ";",
+        "<ESC>",
+        "`",
+        "q",
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "w"
+      ],
+      "commands": [
+        ":vsplit"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "n"
+      ],
+      "commands": [
+        ":split"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "x"
+      ],
+      "commands": [
+        ":x"
+      ]
+    },
+    // {"before" : ["<leader>" ,  "x" , "m"] , "commands"  : [":marks"]},
+    // Tabs
+    {
+      "before": [
+        "H"
+      ],
+      "commands": [
+        ":bprevious"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "commands": [
+        ":bnext"
+      ]
+    },
+    //Hover
+    {
+      "before": [
+        "<S-k>"
+      ],
+      "commands": [
+        {
+          "command": "editor.action.showDefinitionPreviewHover"
+        }
+      ]
+    },
+    // { "before": ["<leader>" , "h"], "commands": [ { "command": "work" } ] },
+    {
+      "before": [
+        "<space>",
+        "m"
+      ],
+      "commands": [
+        "whichkey.show"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "c"
+      ],
+      "after": [
+        "c",
+        "i",
+        "w"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "r"
+      ],
+      "after": [
+        "d",
+        "i",
+        "w"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "e"
+      ],
+      "commands": [
+        "workbench.action.toggleSidebarVisibility"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "j"
+      ],
+      "after": [
+        "_"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "k"
+      ],
+      "after": [
+        "$"
+      ]
+    }
+  ],
+  //vim leader
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    // VS Code new marker @ next occurence
+    "<C-c>": false,
+    // Cut
+    "<C-x>": false,
+    // Paste
+    "<C-v>": false,
+    "<C-z>": false,
+    "<C-y>": false
+  },
+  "sync.gist": "0347f564969e6ea0530a7658bdcf7395",
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.formatOnSave": true,
+  "[django-html]": {
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.centerLayout": false,
+  // "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.showTabs": "none",
+  "editor.minimap.autohide": true,
+  "editor.minimap.renderCharacters": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#FC6600",
+    "terminalCursor.foreground": "#ffff00"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.sideBar.location": "right",
+  "jupyter.askForKernelRestart": false,
+  "window.title": "Sahith !!! ",
+  "vim.scroll": 8,
+  "editor.cursorSurroundingLines": 8,
+  "workbench.panel.defaultLocation": "bottom",
+  "editor.minimap.maxColumn": 80,
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": -1,
+  "workbench.statusBar.visible": true,
+  "animations.Install-Method": "Apc Customize UI++",
+  "workbench.colorTheme": "Monokai Hacker",
+  "glassit.alpha": 240,
+  "window.menuBarVisibility": "top",
+  "workbench.activityBar.location": "side",
+}

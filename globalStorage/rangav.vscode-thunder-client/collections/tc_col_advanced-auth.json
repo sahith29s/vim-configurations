@@ -1,0 +1,65 @@
+{
+    "_id": "9a584447-d913-4c37-a69e-774cbf6d64f3",
+    "colName": "Advanced Auth",
+    "created": "2023-11-09T15:13:28.957Z",
+    "sortNum": 50000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "572aaad9-983e-485e-98dd-86045dae0bd4",
+            "colId": "9a584447-d913-4c37-a69e-774cbf6d64f3",
+            "containerId": "",
+            "name": "create user",
+            "url": "http://localhost:3000/api/user/signup",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-11-09T15:13:44.742Z",
+            "modified": "2023-11-12T11:35:42.858Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"name\" : \"sahith\" , \"email\" : \"sahithoiu\" ,\n\"password\" : \"sahith\" }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9863dcd3-52c3-4c46-ba9f-b3bb448f37a0",
+            "colId": "9a584447-d913-4c37-a69e-774cbf6d64f3",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3000/api/user/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-11-11T14:58:58.297Z",
+            "modified": "2023-11-11T15:12:27.044Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"email\" : \"sahith\" ,  \"password\" : \"sahith\" }",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTRmOTZmMTYyY2U4YWYwZGJkNTIxZDIiLCJpYXQiOjE2OTk3MTUzOTcsImV4cCI6MTY5OTcxODk5N30.3blLXuWNTkWXEkeKHYszPN2GzcCSeRJde2EKZVUJzPo"
+            },
+            "tests": []
+        },
+        {
+            "_id": "fa18894a-3531-4156-9f6b-a02111f0a1ef",
+            "colId": "9a584447-d913-4c37-a69e-774cbf6d64f3",
+            "containerId": "",
+            "name": "verifyUser",
+            "url": "http://localhost:3000/api/user/user",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-11-12T04:41:32.968Z",
+            "modified": "2023-11-12T04:41:38.431Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
